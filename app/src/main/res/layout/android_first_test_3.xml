@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000">
+
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:textAllCaps="false"
+       >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="29dp"
+            android:background="#000000"
+            android:text="     open...                                                                      ctrl-o"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"/>
+        <Button
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="29dp"
+            android:background="#000000"
+            android:text="     save...                                                                       ctrl-s"
+            android:textColor="#FFFFFF"/>
+        <Button
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="29dp"
+            android:background="#000000"
+            android:text="     save as...                                                        ctrl-shift-o"
+            android:textColor="#FFFFFF"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:background="#ffffff" />
+        <Button
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="29dp"
+            android:background="#000000"
+            android:text="X  Import...                                                                            "
+            android:textColor="#FFFFFF"/>
+        <Button
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="29dp"
+            android:background="#000000"
+            android:text="X  Export...                                                                  ctrl-e"
+            android:textColor="#FFFFFF"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:background="#ffffff" />
+        <Button
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="29dp"
+            android:background="#000000"
+            android:text="Quit...                                                                           "
+            android:textColor="#FFFFFF"/>
+
+
+    </TableLayout>
+
+
+</LinearLayout>
