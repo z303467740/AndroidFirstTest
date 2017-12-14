@@ -1,6 +1,6 @@
 ---
-title:Android布局实验
-tags: JAVA,面向对象,基础
+title: Android布局实验
+tags:  Android,布局,基础
 ---
 
 ## 实验一
